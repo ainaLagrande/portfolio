@@ -1,6 +1,5 @@
 class ProjectCard {
 
-
     constructor(name, img, language,code,description) {
         this.name = name;
         this.img = img;
@@ -13,6 +12,7 @@ class ProjectCard {
     display() {
 
         const card = document.createElement("last_projects_box");
+
         card.innerHTML= `<div class="project_box">
             <div class="project_txt">
                 <h3>${this.name}</h3>
@@ -31,16 +31,6 @@ class ProjectCard {
     
 }
 
-// function photographerFactory(data) {
-//     const photographersSection = document.querySelector(".last_projects");
-//     const article = document.createElement( 'article' );
-//     photographersSection.innerHTML="jh"
-//     return {article}
-// }
-
-
-
-
  const getData = () => fetch("../data/projects.json", {mode: 'no-cors'})
   .then(res => res.json())
   .catch(err => console.log("An error occurs when fetching photographers", err))
@@ -48,9 +38,14 @@ class ProjectCard {
   async function displayData(projects) {
     const photographersSection = document.querySelector(".last_projects");
 
-    // console.log(getData)
     projects.forEach((project) => {
-        const photographerModel = new ProjectCard();
+        let projectName = project.name;
+        let projectImg = project.img;
+        let projectLanguage = project.language;
+        let projectCode= project.code;
+        let projectDescription= project.description;
+
+        const photographerModel = new ProjectCard(projectName,projectImg,projectLanguage,projectCode,projectDescription);
         const userCardDOM = photographerModel.display();
         photographersSection.appendChild(userCardDOM);
     });
