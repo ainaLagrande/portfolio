@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Landing Page */
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: var(--font-default);
+  font-size: 18px;
+  margin: 0 auto;
+  color: #003DCC;
+  background-color: black;
+}
+
+.landing_page {
+  width: 100%;
+  height: 90vh;
+  margin-bottom: 10vh;
+}
+.landing_page .landing_page_box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.landing_page .landing_page_item {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.landing_page .landing_page_item .landing_img img {
+  width: 400px;
+  height: 500px;
+}
+.landing_page .landing_txt {
+  font-weight: 100;
+  width: 45%;
+}
+.landing_page .landing_txt h3 {
+  font-size: 3vw;
+  padding: 5% 0% 5% 0%;
+}
+.landing_page .landing_txt h4 {
+  font-size: 2vw;
+}
+.landing_page .landing_txt p {
+  font-size: 1.5vw;
+  line-height: 1.5em;
+  padding: 5% 0% 5% 0%;
+}
+.landing_page .networks_box {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+.landing_page .networks_box img {
+  width: 100%;
+  height: 60px;
+}
+
+.line {
+  background-color: #003DCC;
+  width: 90%;
+  margin: auto;
+  border: 0.5px solid #003DCC;
+}
+
+.half_line {
+  background-color: #003DCC;
+  width: 50%;
+  margin-left: 2%;
+  border: 0.5px solid #003DCC;
+}
+
+.title {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 10%;
+  margin-top: 3%;
+  font-size: 3vw;
+}
+
+.last_projects {
+  display: flex;
+  flex-direction: column;
+}
+.last_projects .last_projects_box {
+  display: flex;
+  margin-top: 3%;
+}
+.last_projects .project_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.last_projects .project_txt {
+  width: 50%;
+  line-height: 2em;
+}
+.last_projects .project_txt h3 {
+  font-size: 2.5vw;
+  padding: 5% 0% 5% 0%;
+}
+.last_projects .project_txt p {
+  font-size: 1.2vw;
+}
+.last_projects .project_txt h4 {
+  font-size: 1.5vw;
+  padding: 2% 0% 2% 0%;
+}
+.last_projects .project_txt h5 {
+  font-size: 1.2vw;
+  padding: 0% 0% 5% 0%;
+}
+.last_projects .project_img {
+  width: 40%;
+}
+.last_projects .project_img img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=style.scss.map */
+
+/*# sourceMappingURL=style.css.map */
