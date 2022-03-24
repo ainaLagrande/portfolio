@@ -90,6 +90,18 @@
     padding-bottom: 3%;
     font-size: 3vw;
   }
+  
+  // API 
+  .reveal {
+    opacity: 0;
+    transform:translateY(-30px);
+  }
+  .reveal-visible
+  {
+    opacity: 1;
+    transform: translateY(0);
+    transition: 1s;
+  }
 
   .last_projects{
     display: flex;

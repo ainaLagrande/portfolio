@@ -91,6 +91,17 @@ a {
   font-size: 3vw;
 }
 
+.reveal {
+  opacity: 0;
+  transform: translateY(-30px);
+}
+
+.reveal-visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: 1s;
+}
+
 .last_projects {
   display: flex;
   flex-direction: column;
@@ -249,6 +260,28 @@ a {
     --rotate: 360deg;
   }
 }
+footer {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+footer .footer_box {
+  margin-top: 3%;
+  padding-bottom: 3%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+footer .footer_box li {
+  list-style-type: none;
+  font-size: 20px;
+  line-height: 2em;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=style.scss.map */
 
 /*# sourceMappingURL=style.css.map */

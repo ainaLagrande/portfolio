@@ -1,0 +1,22 @@
+footer{
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    .footer_box{
+        margin-top: 3%;
+        padding-bottom: 3%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+
+        li{
+            list-style-type: none;
+            font-size: 20px;
+            line-height: 2em;
+            cursor: pointer;
+        }
+    }
+}

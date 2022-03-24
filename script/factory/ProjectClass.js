@@ -25,7 +25,7 @@ export class ProjectCard {
                 </div>
             </div>
         </div>
-        <div class="half_line"></div>`
+        <div class="half_line "></div>`
 
         return card;
     }    
