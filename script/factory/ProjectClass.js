@@ -19,7 +19,7 @@ export class ProjectCard {
 
             </div>
             <div class="project_img">
-                <img src="/img/projects/${this.img}" alt="${this.name}">
+                <img src="./img/projects/${this.img}" alt="${this.name}">
                 <div class="middle">
                     <a href="${this.site}"> <div class="text">Voir le site</div></a>
                 </div>
