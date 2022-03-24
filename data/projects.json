@@ -14,7 +14,7 @@
 			"language": "Html,Css,JavaScript",
 			"code": "https://github.com/ainaLagrande/FishEye",
 			"site": "https://ainaLagrande.github.io/FishEye/",
-			"description": "FishEye est un site accessible pour une plateforme de photographes.Leur site permet aux photographes inépendant de présenter leurs meilleurs travaux.Il était très important pour le client que le site soit accessible a tous les utilisateurs. Toutes les photos comportent des description textuelles.De plus l'utilissateur peut utiliser le clavier pour naviguer sur le site,commes touvhes fléchées de la lightbox.Les élements semantiques sont present ainsi que les attribut ARIA lorsqu'un élément personnalisé est crée.Le code est conforme aux WCAG donc passe les test AChecker sans 'know issue. ESLint est utilisé pour garantir que le code est robuste."
+			"description": "FishEye est un site accessible pour une plateforme de photographes.Leur site permet aux photographes inépendant de présenter leurs meilleurs travaux.Il était très important pour le client que le site soit accessible a tous les utilisateurs. Toutes les photos comportent des description textuelles.De plus l'utilissateur peut utiliser le clavier pour naviguer sur le site,commes touvhes fléchées de la lightbox.Les élements semantiques sont present ainsi que les attribut ARIA lorsqu'un élément personnalisé est crée.Le code est conforme aux WCAG . ESLint est utilisé pour garantir que le code est robuste."
 		},
 		{
 			"name": "GameOn",

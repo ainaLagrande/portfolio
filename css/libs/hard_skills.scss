@@ -58,22 +58,16 @@
     opacity: 0;
   }
   
-  
   .hard_skills_circle::before {
     content: "";
     width: 104%;
     height: 102%;
     border-radius: 50%;
-    background-image: linear-gradient(
-    var(--rotate)
-    , #5ddcff, #003DCC 43%, #4e00c2);
+    background-image: linear-gradient(var(--rotate), #5ddcff, #003DCC 43%, #4e00c2);
     position: absolute;
     z-index: -1;
-    top: -1%;
-    left: -2%;
     animation: spin 2.5s linear infinite;
   }
-  
   
   @keyframes spin {
     0% {

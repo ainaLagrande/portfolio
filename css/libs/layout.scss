@@ -39,8 +39,9 @@
 
       .landing_img{
         img{
-          width: 400px;
-          height: 500px;
+          width: 90%;
+          max-height: 100%;
+          cursor: pointer;
         }
       }
     }
@@ -63,10 +64,10 @@
       .networks_box{
         display: flex;
         justify-content: space-around;
-        width: 50%;
+        width: 40%;
         img{
           width: 100%;
-          height: 60px;
+          height: 40px;
         }
       }
     }
@@ -115,7 +116,7 @@
       display: flex;
       align-items: center;
       justify-content: space-around;
-      height: 60vh;
+      height: 80vh;
     }
     .project_txt{
       width: 50%;
