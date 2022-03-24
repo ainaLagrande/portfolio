@@ -283,7 +283,7 @@ footer .footer_box li {
 }
 
 @media only screen and (max-device-width: 780px) {
-  html, body {
+  body {
     overflow-x: hidden;
   }
 
