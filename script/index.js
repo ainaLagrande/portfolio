@@ -10,9 +10,10 @@ import {getData} from './factory/getData.js';
         let projectImg = project.img;
         let projectLanguage = project.language;
         let projectCode= project.code;
+        let projectSite= project.site;
         let projectDescription= project.description;
 
-        const photographerModel = new ProjectCard(projectName,projectImg,projectLanguage,projectCode,projectDescription);
+        const photographerModel = new ProjectCard(projectName,projectImg,projectLanguage,projectCode,projectSite,projectDescription);
         const userCardDOM = photographerModel.display();
         photographersSection.appendChild(userCardDOM);
     });
