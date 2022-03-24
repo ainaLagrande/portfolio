@@ -8,7 +8,7 @@ export class ProjectCard {
         this.site = site;
         this.description = description;
     }
-    display() {
+    displayProject() {
         const card = document.createElement("last_projects_box");
         card.innerHTML= `<div class="project_box">
             <div class="project_txt">
