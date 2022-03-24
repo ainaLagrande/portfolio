@@ -283,6 +283,10 @@ footer .footer_box li {
 }
 
 @media only screen and (max-device-width: 780px) {
+  html, body {
+    overflow-x: hidden;
+  }
+
   .title {
     font-size: 7vw;
   }

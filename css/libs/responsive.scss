@@ -1,5 +1,9 @@
 @media only screen and  (max-device-width : 780px) {
 
+    html,body{
+        overflow-x: hidden;
+
+    }
     // LAYOUT 
     .title{
         font-size: 7vw;
