@@ -6,7 +6,7 @@
 			"language": "Html,Css,Sass,JavaScript",
 			"code": "https://github.com/ainaLagrande/Lagrande_Aina_7_Les_Petits_Plats_25-02",
 			"site": "https://ainalagrande.github.io/Lagrande_Aina_7_Les_Petits_Plats_25-02/",
-			"description": "Les petits plats est un site de recettes de cuisine à l'instar de Marmiton ou 750g.Le but était de développer un algorithme de recherche avancé.Le client voulais un moteur de recherhce fluide ,presque instantanée.Après avoir implementé l'interface j'ai developpé deux version de la fonctionnalité de recherche , puis j'ai testé leur performance et gardé l'algorithme le plus adapté. ESLint est utilisé pour garantir que le code est robuste."
+			"description": "Les petits plats est un site de recettes de cuisine à l'instar de Marmiton ou 750 g. Le but était de développer un algorithme de recherche avancé. Le client voulait un moteur de recherche fluide, presque instantanée. Après avoir implémenté l'interface, j'ai développé deux versions de la fonctionnalité de recherche, puis j'ai testé leur performance et gardé l'algorithme le plus adapté. ESLint est utilisé pour garantir que le code est robuste."
 		},
 		{
 			"name": "FishEye",
@@ -14,7 +14,7 @@
 			"language": "Html,Css,JavaScript",
 			"code": "https://github.com/ainaLagrande/FishEye",
 			"site": "https://ainaLagrande.github.io/FishEye/",
-			"description": "FishEye est un site accessible pour une plateforme de photographes.Leur site permet aux photographes inépendant de présenter leurs meilleurs travaux.Il était très important pour le client que le site soit accessible a tous les utilisateurs. Toutes les photos comportent des description textuelles.De plus l'utilissateur peut utiliser le clavier pour naviguer sur le site,commes touvhes fléchées de la lightbox.Les élements semantiques sont present ainsi que les attribut ARIA lorsqu'un élément personnalisé est crée.Le code est conforme aux WCAG . ESLint est utilisé pour garantir que le code est robuste."
+			"description": "FishEye est un site accessible pour une plateforme de photographes. Leur site permet aux photographes indépendants de présenter leurs meilleurs travaux. Il était très important pour le client que le site soit accessible à tous les utilisateurs. Toutes les photos comportent des descriptions textuelles. De plus, l'utilisateur peut utiliser le clavier pour naviguer sur le site, commes touches fléchées de la lightbox. Les éléments sémantiques sont présents ainsi que les attributs ARIA lorsqu'un élément personnalisé est créé. Le code est conforme aux WCAG . ESLint est utilisé pour garantir que le code est robuste."
 		},
 		{
 			"name": "GameOn",
@@ -22,7 +22,7 @@
 			"language": "Html,Css,JavaScript",
 			"code": "https://github.com/ainaLagrande/Game-On",
 			"site": "https://ainaLagrande.github.io/Game-On/",
-			"description": "GameOn est une entreprise spécialisée dans les conférences et les concours de jeux.Mon travail consistais à ajouter le code JavaScript manquant pour que le formulaire d'inscription soit pleinement fonctionnel. Le formulaire comporte sept champs avec une gestion d'erreur clair et detaillée"
+			"description": "GameOn est une entreprise spécialisée dans les conférences et les concours de jeux. Mon travail consistait à ajouter le code JavaScript manquant pour que le formulaire d'inscription soit pleinement fonctionnel. Le formulaire comporte sept champs avec une gestion d'erreur claire et détaillée."
 		},
 		{
 			"name": "Dynasty Patrimoine",
@@ -30,15 +30,15 @@
 			"language": "Html,Css,JavaScript,Php",
 			"code": "https://github.com/ainaLagrande/DT_2.0",
 			"site": "https://dynasty-patrimoine.com/",
-			"description": "Dynasty Patrimoine est un cabinet de gestion de patrimoine et d’optimisation fiscale. Le but était de mettre en valeur l'image de l'entreprise tout en faisant attention à la charte graphique de celle ci. Le design ainsi que le développement à été realisé par mes soins.ESLint est utilisé pour garantir que le code est robuste.Le formulaire est securisé."
+			"description": "Dynasty Patrimoine est un cabinet de gestion de patrimoine et d’optimisation fiscale. Le but était de mettre en valeur l'image de l'entreprise tout en faisant attention à la charte graphique de celle-ci. Le design ainsi que le développement a été réalisé par mes soins.ESLint est utilisé pour garantir que le code est robuste. Le formulaire est sécurisé avec PHP."
 		},
 		{
 			"name": "Onixia",
 			"img": "onixia.png",
 			"language": "Html,Sass,Js,Php,Mysql,Crud",
-			"code": "Code confidentiel",
+			"code": "Code confidentiel, contactez le developpeur pour plus de détails",
 			"site": "https://onixia.fr/",
-			"description": "Onixia est un site de Dynasty Patrimoine.L'entreprise avait besoin d'un espace dedié a leur commerciaux afin qu'ils puissent avoir les programmes des promotteurs les plus recents.Le site comprends deux possibilité de connexion en tant qu'administrateur ou utilisateur. L'administateur a la possibilité d'ajouter, modifier ou supprimer un programme, inscrire modifier ou supprimer un membre.Du coté utilisateur celui-ci voit les programmes et peut les trier par localisation, fiscalité,commission et etc.Le site est entierement securisé."
+			"description": "Onixia est un site de Dynasty Patrimoine. L'entreprise avait besoin d'un espace dédié à leurs commerciaux afin qu'ils puissent avoir les programmes des promoteurs les plus récents. Le site comprend deux possibilités de connexion en tant qu'administrateur ou utilisateur. L'administrateur a la possibilité d'ajouter, modifier ou supprimer un programme, inscrire, modifier ou supprimer un membre. Du côté utilisateur, celui-ci voit les programmes et peut les trier par localisation, fiscalité, commission et etc. Le site est entièrement sécurisé."
 		},
 		{
 			"name": "Oh My Dood",
@@ -46,7 +46,7 @@
 			"language": "Html,Css,Sass",
 			"code": "https://github.com/ainaLagrande/Oh_My_Food",
 			"site": "https://ainalagrande.github.io/Oh_My_Food/",
-			"description": "Ohmyfood est une entreprise de commande de repas en ligne. Leur concept permet aux utilisateurs de composer leur propre menu et réduire leur temps d’attente dans les restaurants car leur menu est préparé à l’avance. Plus de perte de temps à consulter la carte!La cible étant les personnes connectées et pressées, le site est développé en utilisant l’approche mobile-first. Pour cette raison, seules des maquettes mobiles sont réalisées.Le site s’adapte sur tablette et desktop, mais ces supports n’étant pas prioritaires, leur mise en page est simple."
+			"description": "Ohmyfood est une entreprise de commande de repas en ligne. Leur concept permet aux utilisateurs de composer leur propre menu et réduire leur temps d’attente dans les restaurants, car leur menu est préparé à l’avance. Plus de perte de temps a consulter la carte ! La cible étant les personnes connectées et pressées, le site est développé en utilisant l’approche mobile-first. Pour cette raison, seules des maquettes mobiles sont réalisées. Le site s’adapte sur tablette et desktop, mais ces supports n’étant pas prioritaires, leur mise en page est simple."
 		}
 	]
 }
