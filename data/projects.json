@@ -1,6 +1,14 @@
 {
 	"projects": [
 		{
+			"name": "Kasa",
+			"img": "Kasa.jpg",
+			"language": "JavaScript,React App,React Router",
+			"code": "https://github.com/ainaLagrande/Kasa",
+			"site": "https://github.com/ainaLagrande/Kasa",
+			"description": "Kasa est une entreprise dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant.Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d’appartements entre particuliers en France. Mon objectif etait  de démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma . Et ce avec un code de qualité ! "
+		},
+		{
 			"name": "Les petits plats",
 			"img": "lesPetitsPlats.png",
 			"language": "Html,Css,Sass,JavaScript",
