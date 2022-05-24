@@ -1,6 +1,14 @@
 {
 	"projects": [
 		{
+			"name": "Sport See",
+			"img": "SportSee.jpg",
+			"language": "JavaScript,React App,React Router,Axios,Recharts",
+			"code": "https://github.com/ainaLagrande/SportSee",
+			"site": "https://github.com/ainaLagrande/SportSee",
+			"description": "SportSee, une start-up dédiée au coaching sportif. En pleine croissance, l’entreprise voulait lancer une nouvelle version de la page profil de l’utilisateur. Mon rôle était de développer un tableau de bord d'analytics avec React, une gestion des calls asynchrones et des promesses , cycle de vie d’une application React avec des données asynchrones, librairie graphique Recharts, la JSDoc et la documentation technique."
+		},
+		{
 			"name": "Kasa",
 			"img": "Kasa.jpg",
 			"language": "JavaScript,React App,React Router",
