@@ -14,7 +14,7 @@ export class ProjectCard {
             <div class="project_txt">
                 <h3>${this.name}</h3>
                 <p>${this.description}</p>
-                <h4>Languages utilisés : ${this.language}</h4>
+                <h4>Languages/utils utilisés : ${this.language}</h4>
                 <a href="${this.code}"><h5>Code Source</h5></a>
 
             </div>

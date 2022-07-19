@@ -1,7 +1,23 @@
 {
 	"projects": [
 		{
-			"name": "Sport See",
+			"name": "Conversion d'une librairie jQuery vers React",
+			"img": "HRnet.jpg",
+			"language": "JavaScript,React App,React Router,Redux",
+			"code": "https://github.com/ainaLagrande/HRnet",
+			"site": "https://github.com/ainaLagrande/HRnet",
+			"description": "HRnet utilise une application web interne, qui gère les dossiers des employés. L'application est ancienne et utilise jQuery côté front end, ce qui entraîne des bugs considérables et une augmentation des plaintes en interne.Mon rôle consistais à faire passer une librairie jQuery vers React.Convertir l'ensemble du projet HRNet en React. Convertir l'un des quatre plugins jQuery actuels en React. Remplacer les 3 plugins jQuery restants par des composants React. Effectuer des tests de performance Lighthouse en comparant l'ancienne et la nouvelle application."
+		},
+		{
+			"name": "Utiliser une API pour un compte utilisateur bancaire avec React",
+			"img": "ArgentBank.jpg",
+			"language": "MongoDB,React App,React Router,Redux,Swagger Editor",
+			"code": "https://github.com/ainaLagrande/ArgentBank",
+			"site": "https://github.com/ainaLagrande/ArgentBank",
+			"description": "Le projet concerne une nouvelle banque qui démarre:Argent Bank,qui a besoin d'aide pour mettre en place son application.J'ai obtenu une mission en deux parties qui se décompose en plusieurs phases : Phase 1 : Authentification des utilisateurs - Création d'une application web permettant aux clients de se connecter et de gérer leurs comptes et leur profil.Phase 2 : Transactions - Il s’agirait de spécifier les endpoints d’API nécessaires pour une éventuelle deuxième mission une fois que la première est terminée."
+		},
+		{
+			"name": "Un tableau de bord d'analytics avec React",
 			"img": "SportSee.jpg",
 			"language": "JavaScript,React App,React Router,Axios,Recharts",
 			"code": "https://github.com/ainaLagrande/SportSee",
@@ -9,7 +25,7 @@
 			"description": "SportSee, une start-up dédiée au coaching sportif. En pleine croissance, l’entreprise voulait lancer une nouvelle version de la page profil de l’utilisateur. Mon rôle était de développer un tableau de bord d'analytics avec React, une gestion des calls asynchrones et des promesses , cycle de vie d’une application React avec des données asynchrones, librairie graphique Recharts, la JSDoc et la documentation technique."
 		},
 		{
-			"name": "Kasa",
+			"name": "Kasa, application web avec React",
 			"img": "Kasa.jpg",
 			"language": "JavaScript,React App,React Router",
 			"code": "https://github.com/ainaLagrande/Kasa",
@@ -17,7 +33,7 @@
 			"description": "Kasa est une entreprise dans le métier de la location d’appartements entre particuliers depuis près de 10 ans maintenant.Avec plus de 500 annonces postées chaque jour Kasa fait partie des leaders de la location d’appartements entre particuliers en France. Mon objectif etait  de démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma . Et ce avec un code de qualité ! "
 		},
 		{
-			"name": "Les petits plats",
+			"name": "Les petits plats, algorithme de recherche JS",
 			"img": "lesPetitsPlats.png",
 			"language": "Html,Css,Sass,JavaScript",
 			"code": "https://github.com/ainaLagrande/Lagrande_Aina_7_Les_Petits_Plats_25-02",
@@ -25,7 +41,7 @@
 			"description": "Les petits plats est un site de recettes de cuisine à l'instar de Marmiton ou 750 g. Le but était de développer un algorithme de recherche avancé. Le client voulait un moteur de recherche fluide, presque instantanée. Après avoir implémenté l'interface, j'ai développé deux versions de la fonctionnalité de recherche, puis j'ai testé leur performance et gardé l'algorithme le plus adapté. ESLint est utilisé pour garantir que le code est robuste."
 		},
 		{
-			"name": "FishEye",
+			"name": "FishEye,un site web accessible",
 			"img": "FishEye.png",
 			"language": "Html,Css,JavaScript",
 			"code": "https://github.com/ainaLagrande/FishEye",
