@@ -1,6 +1,14 @@
 {
 	"projects": [
 		{
+			"name": "Accéssibilité",
+			"img": "Acessibilite.png",
+			"language": "Vue.js",
+			"code": "https://github.com/ainaLagrande/Acc-ssibilit-",
+			"site": "https://github.com/ainaLagrande/Acc-ssibilit-",
+			"description": "Ce site est un projet portant sur le contenu web accéssible à tous. Il réunis la documentation , checklist et tips à avoir lors de la conception d'un site web performant qui tient compte de toute la diversité humaine en matière d'aptitudes physiques, de langue, de culture, de sexe, d'âge et de toute autre forme de différence."
+		},
+		{
 			"name": "Conversion d'une librairie jQuery vers React",
 			"img": "HRnet.jpg",
 			"language": "JavaScript,React App,React Router,Redux",
