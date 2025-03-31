@@ -20,7 +20,7 @@
   }
   .line{
     background-color: #003DCC;
-    width: 90%;
+    width: 95%;
     margin: auto;
     border:  0.5px solid #003DCC;
   }
@@ -29,13 +29,19 @@
     width: 50%;
     margin-left: 2%;
     border: 0.5px solid #003DCC;
+
+    @media only screen and  (max-device-width : 1024px) {
+      width: 90%;
+      margin-top: 2rem;
+      margin-left: 4%;
+    }
   }
   .title{
     display: flex;
-    justify-content: flex-end;
-    margin-right: 10%;
+    justify-content: flex-start;
+    margin-left: 2rem;
     padding-bottom: 3%;
-    font-size: 3vw;
+    font-size: 3rem;
   }
   // API 
   .reveal {

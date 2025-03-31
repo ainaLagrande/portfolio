@@ -1,56 +1,64 @@
 .landing_page{
-  width: 100%;
-  height: 90vh;
-  margin-bottom:10vh;
-  .landing_page_box{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-  }
+  height: 100%;
+  padding: 4rem 2rem;
+
   .landing_page_item{
-    width: 100%;
-    height: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
 
-    .landing_img{
-      img{
-        width: 90%;
-        max-height: 100%;
-        cursor: pointer;
-      }
+    @media only screen and  (max-device-width : 1024px) {
+      flex-direction: column;
     }
   }
   .landing_txt{
-    font-weight: 100;
-    width: 45%;
+    width: 50%;
+    @media only screen and  (max-device-width : 1024px) {
+      width: 90%;
+    }
+
     h3{
-      font-size:3vw;
+      font-size: 2.6rem;
       padding: 5% 0% 5% 0%;
     }
     h4{
-      font-size: 2vw;
+      font-size: 2rem;
     }
     p{
-      font-size: 1.5vw;
-      line-height: 1.5em;
+      font-size: 1.5rem;
       padding: 5% 0% 5% 0%;
     }
   }
-    .networks_box{
-      display: flex;
-      justify-content: space-around;
-      width: 40%;
-      img{
-        width: 100%;
-        height: 40px;
+  .landing_img{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+
+    img{
+      max-height: 556px;
+
+      @media only screen and  (max-device-width : 1024px) {
+        margin-top: 2rem;
+        max-height: 700px;
       }
     }
+  }
+
+  .networks_box{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    @media only screen and  (max-device-width : 430px) {
+      width: 100%;
+    }
+    img{
+      width: 100%;
+      height: 40px;
+      transition: all 0.3s;
+      &:hover{
+        opacity: 0.6;
+      }
+    }
+  }
+
 }
-
-
-
-
-  
